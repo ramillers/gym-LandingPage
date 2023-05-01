@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&family=Poppins:wght@400;500;600;800;900&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("imgs/background.svg"); 
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    height: 225vh;
+    background-repeat: no-repeat;
+}
+
+.primeira-logo {
+    width: 200px;
+    height: 60px;
+    vertical-align: bottom;
+}
+.parte1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.promo-texto-h2 {
+    font-family: 'Inter';
+    font-weight: 600; 
+    font-size: 1.6rem;
+    line-height: 2.357rem;
+    color: #ffffff;
+    position: relative;
+
+    margin-top: 100px;
+}
+
+.promo-texto-h2 span {
+    color: #FFB23E; 
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+.promo-texto-h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.3rem;
+    line-height: 105.5%;
+    color: #FFB23E;
+}
+
+.promo-texto-p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ffffff; 
+}
+
+.promo-texto-p span {
+    font-weight: 600;
+    color: #FFB23E;
+    font-size: 19px;
+}
+
+#botao {
+    width: 12.4rem; 
+    height: 2.5rem;
+    background: #FFB23E;
+    border-radius: 6px;
+    border-style: none;
+
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32.50px;
+    letter-spacing: 0.11rem;
+
+    margin-top: 10px;
+
+    color: #ffffff; 
+}
+
+#botao:hover {
+    background: #ffffff;
+    color:#FFB23E; 
+}
+
+
+.primeira-imagem {
+    margin-top: 100px;
+    width: 350px; 
+    height: 650px; 
+}
+
+.parte2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parte2-promo {
+    font-family: 'Poppins'; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50.07px;
+    line-height: 105px;
+    letter-spacing: 0.105em;
+    text-align: center;
+
+    width: 1377px; 
+    height: 105px;
+
+    position: relative;
+
+    color: #ffffff;
+
+}
+
+.parte2-slogan {
+    font-family: 'Poppins'; 
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 21.79px;
+    line-height: 28.7912px; 
+    letter-spacing: 0.07em; 
+
+    color: #ffffff; 
+
+    margin-bottom: 15px;
+
+    margin-left: 435px;
+}
+
+.parte2-slogan span {
+    color:#FFB23E; 
+}
+
+.imagem-p1 {
+    width: 250px;
+    height: 300px; 
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    margin-left: 260.86px;
+
+}
+
+.plano-individual {
+    margin-left: 285.86px; 
+
+    color: #ffffff; 
+    font-size: 13px; 
+    margin-top: -190px; 
+
+    font-family: 'Poppins';
+
+    letter-spacing: 0.11rem;
+}
+
+.imagem-p2 {
+    width: 250px;
+    height: 297px; 
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    margin-top: 5px; 
+    margin-left: 13px;
+
+}
+
+.individual-plus {
+    color: #ffffff; 
+    font-size: 10px; 
+    margin-top: -185px; 
+
+    margin-left: 35px;
+
+    font-family: 'Poppins';
+
+    letter-spacing: 0.11rem;
+}
+
+.imagem-p3 {
+    width: 250px;
+    height: 299px; 
+    box-sizing: border-box;
+    border-radius: 13px;
+
+    margin-top: 3px;
+
+    margin-right: 350px;
+
+}
+
+.amigos-friends {
+    color: #ffffff; 
+    font-size: 10px; 
+    margin-top: -205px;
+
+    margin-left: 21px; 
+
+    font-family: 'Poppins';
+
+    letter-spacing: 0.11rem;
+}
+
+.valor {
+    font-size: 30px;
+    margin-left: 40px;
+    font-weight: 800;
+    color: #FFB23E;
+}
+
+.valor span {
+    font-size: 10px;
+}
+
+.info {
+    font-size: 11px;
+    margin-left: 7px;
+    letter-spacing: 0.11rem;
+}
+
+.info2 {
+    font-size: 12px; 
+}
+
+.botao {
+    width: 12.4rem; 
+    height: 2.5rem;
+    background: #FFB23E;
+    border-radius: 6px;
+    border-style: none;
+
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32.50px;
+    letter-spacing: 0.11rem;
+
+    margin-top: 50px;
+
+    color: #ffffff; 
+
+}
+
+.botao1 {
+    width: 12.4rem; 
+    height: 2.5rem;
+    background: #FFB23E;
+    border-radius: 6px;
+    border-style: none;
+
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32.50px;
+    letter-spacing: 0.11rem;
+
+    margin-top: 40px;
+
+    color: #ffffff; 
+}
+
+.botao:hover{
+    background: #ffffff;
+    color:#FFB23E; 
+}
+
+
+.botao1:hover{
+    background: #ffffff;
+    color:#FFB23E; 
+}
+
+
+.parte3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 350px;
+    margin-right: 400px; 
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 200px; 
+    height: 60px;
+    margin-right: -50px;
+}
+
+.linha {
+    height: 130px;
+
+}
+
+.nome-empresa {
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 38.5px;
+    letter-spacing: 2px;
+    
+    color: #ffffff;
+}
+
+.empresa {
+    list-style: none;
+}
+
+.empresa li a {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: thin;
+    letter-spacing: 1px;
+    line-height: 32.47px;
+}
+
+.empresa li a:hover {
+    color: #FFB23E;
+}
+
+.nome-ajuda {
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 38.5px;
+    letter-spacing: 2px;
+    
+    color: #ffffff;
+
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.ajuda {
+    list-style: none;
+    
+}
+
+.ajuda li a {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: thin;
+    letter-spacing: 1px;
+    line-height: 32.47px;
+} 
+
+.ajuda li a:hover {
+    color: #FFB23E;
+}
+
+.nome-newsletter {
+    font-family: 'Poppins';
+    font-weight: 400;
+    line-height: 38.5px;
+    letter-spacing: 2px;
+    
+    color: #ffffff;
+
+    margin-top: -20px;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.botao-inscreva-se {
+    width: 9.4rem; 
+    height: 2.7rem;
+    background: #FFB23E;
+    border-radius: 6px;
+    border-style: none;
+
+    font-family: 'Inter'; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 32.50px;
+    letter-spacing: 0.11rem;
+
+    margin-top: 40px;
+
+    color: #ffffff;
+}
+
+.botao-inscreva-se:hover {
+    background: #ffffff;
+    color:#FFB23E; 
+}
+
+.email {
+    box-sizing: border-box;
+    position: absolute;
+    width: 9.4rem; 
+    height: 2.3rem; 
+    border-radius: 6px; 
+    border-color: #FFB23E; 
+    background-color: transparent; 
+
+    font-family: 'Inter';
+    font-size: 15px; 
+    line-height: 32.50px;
+    letter-spacing: 0.11rem;
+
+    color: #ffffff; 
+    overflow: hidden; 
+    transition: background-color, color, 1s; 
+}
+
+.email:hover {
+    color: #FFB23E;
+    background-color: #ffffff;
+}
+
+
+
+
+
